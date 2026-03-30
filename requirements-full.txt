@@ -1,0 +1,6 @@
+# Full install includes everything from requirements-minimal.txt plus system packages.
+# Python packages are listed here for convenience.
+pypdf
+python-docx
+openpyxl
+python-pptx

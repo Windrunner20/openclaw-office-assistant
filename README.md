@@ -30,7 +30,29 @@ A production-ready OpenClaw skill for reading, extracting, summarizing, and comp
 
 ## Quick start
 
-Run the extractor directly:
+### Install the skill
+
+Minimal install:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Windrunner20/openclaw-office-assistant/main/scripts/install.sh | bash -s -- --deps minimal
+```
+
+Full install:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Windrunner20/openclaw-office-assistant/main/scripts/install.sh | bash -s -- --deps full --yes
+```
+
+Manual copy into an existing OpenClaw workspace:
+
+```bash
+git clone https://github.com/Windrunner20/openclaw-office-assistant.git
+cd openclaw-office-assistant
+./scripts/install.sh --deps minimal
+```
+
+### Run the extractor directly
 
 ```bash
 python3 scripts/extract_office_text.py "/path/to/file.pdf" --json

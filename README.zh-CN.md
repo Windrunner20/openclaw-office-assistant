@@ -30,7 +30,29 @@
 
 ## 快速开始
 
-直接运行提取脚本：
+### 一键安装这个 skill
+
+最小依赖安装：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Windrunner20/openclaw-office-assistant/main/scripts/install.sh | bash -s -- --deps minimal
+```
+
+完整依赖安装：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Windrunner20/openclaw-office-assistant/main/scripts/install.sh | bash -s -- --deps full --yes
+```
+
+如果已经有 OpenClaw 工作区，也可以手动 clone 后安装：
+
+```bash
+git clone https://github.com/Windrunner20/openclaw-office-assistant.git
+cd openclaw-office-assistant
+./scripts/install.sh --deps minimal
+```
+
+### 直接运行提取脚本
 
 ```bash
 python3 scripts/extract_office_text.py "/path/to/file.pdf" --json
