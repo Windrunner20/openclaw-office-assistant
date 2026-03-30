@@ -1,5 +1,9 @@
 # OpenClaw Office Assistant
 
+[![Release](https://img.shields.io/github/v/release/Windrunner20/openclaw-office-assistant?sort=semver)](https://github.com/Windrunner20/openclaw-office-assistant/releases)
+[![License](https://img.shields.io/github/license/Windrunner20/openclaw-office-assistant)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/Windrunner20/openclaw-office-assistant)](https://github.com/Windrunner20/openclaw-office-assistant/commits/main)
+
 [English](README.md) | 简体中文
 
 一个正式可发布的 OpenClaw AgentSkill，用于读取、提取、总结、比较 Office 文档，包括 PDF、Word、Excel 和 PowerPoint。

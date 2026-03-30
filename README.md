@@ -1,5 +1,9 @@
 # OpenClaw Office Assistant
 
+[![Release](https://img.shields.io/github/v/release/Windrunner20/openclaw-office-assistant?sort=semver)](https://github.com/Windrunner20/openclaw-office-assistant/releases)
+[![License](https://img.shields.io/github/license/Windrunner20/openclaw-office-assistant)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/Windrunner20/openclaw-office-assistant)](https://github.com/Windrunner20/openclaw-office-assistant/commits/main)
+
 [中文](README.zh-CN.md) | English
 
 A production-ready OpenClaw skill for reading, extracting, summarizing, and comparing office documents, including PDF, Word, Excel, and PowerPoint files.
